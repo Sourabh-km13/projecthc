@@ -1,0 +1,121 @@
+html{
+    background:linear-gradient(135deg,rgb(230, 241, 141),rgb(247, 190, 225)) ;
+  font-size: 12px;
+  font-family: poppins;
+  
+}
+.head{
+    font-weight: 500;
+    font-size: 1.75rem;
+  text-align: center;
+    
+}
+span{
+    font-weight: 300;
+    color: gray;
+}
+.info{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: gray;
+    margin: 40px auto;
+    max-width: 280px;
+    text-align: center;
+    
+}
+hr{
+    border: 1px solid gray;
+    box-shadow: 1px 2px rgb(255, 81, 235),2px 4px rgb(203, 235, 25);
+}
+.cards{
+ 
+     display: flex;
+    flex-direction: column;
+    margin: 80px 80px;
+    gap: 64px;
+    justify-content: center;
+    
+
+}
+.col1 ,.col2, .col3{
+    
+    
+    flex: 1;
+}
+.col2{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+.card{
+    font-size: .8rem;
+    border: solid 1px transparent;
+    border-radius: 4px;
+    font-weight: 400;
+    padding: 20px 4px;
+    
+    box-shadow: 0px 0px 16px  gray;
+}
+.card.one{
+    border-top: solid 2px aqua;
+}
+.card.two{
+    border-top: solid 2px red;
+}
+.card.three{
+    border-top: solid 2px yellow;
+}
+.card.four{
+    border-top: solid 3px rgb(0, 123, 255);
+}
+.card-image{
+height: 32px;
+width: 32px;
+}
+.card:hover{
+    rotate: y 20deg;
+    background-color: transparent;
+     background:linear-gradient(45deg,rgb(223, 223, 95), 
+     rgb(250, 122, 144)); 
+     transition: 200ms;
+}
+
+.text{
+    margin:12px 0px 12px 0px
+}
+.text div{
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+}
+.pict{
+    text-align: right;
+}
+
+@media screen and (min-width:760px) {
+   html{
+    font-size: 18px;
+    padding-bottom: 40px;
+   }
+    .info{
+        max-width: 620px;
+    }
+    .cards{
+        margin: 0;
+      max-width: none;
+      padding: 0 96px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+     
+        gap: 64px;
+
+}
+
+    .card-image{
+        height: 48px;
+        width: 48px;
+    }
+  
+
+}
