@@ -36,8 +36,8 @@ body{
 }
 .logotext{
    margin:0;
-    font-size: 2rem;
-    font-weight: 900;
+    font-size: 1.5rem;
+    font-weight: 800;
 }
 .logoimg{
     height:32px;
@@ -72,11 +72,11 @@ body{
 }
 .tags button{
     border-color: transparent;
-    box-shadow:0px 0px 4px rgb(133, 133, 133);
+    box-shadow:0px 0px 4px rgb(76, 76, 76);
     height:36px;
-    
+    background-color: transparent;
     border-radius:6px;
-    font-size:1.25rem;
+    font-size:1rem;
     transition: 200ms;
 }
 .tags button:hover{
@@ -95,12 +95,20 @@ span{
     color: gray;
 }
 .info{
-    font-size: 1.25rem;
-    font-weight: 300;
-    color: gray;
-    margin: 40px auto;
-    max-width: 280px;
+    margin: 40px 20px;
+    font-size: 3.25rem;
+    font-weight: 600;
+    color: rgb(249, 187, 187);
+    text-shadow: 2px 2px rgb(0, 140, 255);
+    border-radius: 64px;
+    padding: 40px ;
     text-align: center;
+    background: url(/images/doc.jpg);
+    box-shadow: 0px 0px 4px  red;
+    background-size: 100%;
+    background-position: center;
+    object-fit:contain;
+    background-repeat: no-repeat;
 }
 
 .cards{
@@ -132,6 +140,7 @@ span{
     padding: 20px 4px;
     
     box-shadow: 0px 0px 16px  gray;
+   
 }
 .card.one{
     border-top: solid 4px aqua;
@@ -150,8 +159,7 @@ height: 32px;
 width: 32px;
 }
 .card:hover{
-    rotate: y 10deg;
-    background-color: transparent;
+     rotate: y 10deg;
      background:linear-gradient(45deg,rgb(223, 223, 95), 
      rgb(250, 122, 144)); 
      transition: 200ms;
@@ -173,9 +181,7 @@ width: 32px;
     font-size: 18px;
     padding-bottom: 40px;
    }
-    .info{
-        max-width: 620px;
-    }
+   
     .cards{
         margin: 0;
       max-width: none;
