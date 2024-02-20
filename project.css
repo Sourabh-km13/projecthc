@@ -6,8 +6,7 @@ html{
 body{
     margin: 0;
     background:linear-gradient(45deg,
-    pink
-    ,rgb(176, 243, 201)
+    rgb(176, 243, 201),pink
     ,rgb(175, 224, 247)
 
     );
