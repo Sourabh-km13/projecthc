@@ -109,20 +109,38 @@ span {
 
 .info {
     margin: 40px 20px;
-    font-size: 3.25rem;
-    font-weight: 600;
-    color: rgb(249, 187, 187);
-    text-shadow: 2px 2px rgb(0, 140, 255);
     border-radius: 64px;
-    padding: 40px;
-    text-align: center;
+    
     background: url(/images/doc.jpg);
     box-shadow: 0px 0px 8px red;
     background-size: 100%;
-    background-position: center;
-    object-fit: contain;
+    object-fit: cover;
     background-repeat: no-repeat;
+    isolation: isolate;
 }
+
+.info-text {
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgb(193, 84, 72);
+    text-shadow: 2px 2px rgb(3, 3, 3);
+    text-align: center;
+    position: relative;
+    padding: 40px;
+    
+}
+.info-text::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background:linear-gradient(90deg,rgb(72, 72, 72),white);
+    mix-blend-mode:multiply;
+    border-radius: 64px;
+    
+    
+}
+
 
 .cards {
 
