@@ -8,7 +8,7 @@ html {
 body {
     margin: 0;
     background: linear-gradient(45deg,
-            rgb(176, 243, 201), pink, rgb(175, 224, 247));
+            rgb(255, 255, 255), pink, rgb(175, 224, 247));
     background-size: 400%;
     animation: bg-animation 20s infinite alternate;
 }
@@ -42,6 +42,7 @@ body {
     margin: 0;
     font-size: 1.5rem;
     font-weight: 800;
+    color: rgb(193, 84, 72);
 }
 
 .logoimg {
@@ -182,8 +183,8 @@ span {
 
 .card:hover {
     rotate: y 10deg;
-    background: linear-gradient(45deg, rgb(225, 86, 120),
-            rgb(212, 249, 102));
+    background: linear-gradient(45deg, rgb(179, 223, 230),
+            rgb(243, 199, 199));
     transition: 200ms;
 }
 
@@ -203,21 +204,21 @@ font-size: .9rem;
 }
 .card-button>button:hover{
     color: rgb(237, 237, 237);
-    mix-blend-mode: screen;
+    cursor: pointer;
 }
 .card-button>button::after{
     content: '';
     position: absolute;
    inset: 0;
     z-index: -1;
-   background:rgb(241, 16, 0) ;
+   background:rgb(255, 123, 108) ;
     border-radius: 4px;
     transform: scaleX(0);
     transform-origin: left;
 
 }
 .card-button>button:hover::after{
-    cursor: pointer;
+
     
     transition: 300ms;
     transform: scaleX(1);
