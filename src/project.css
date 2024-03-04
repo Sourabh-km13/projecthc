@@ -22,9 +22,22 @@ body {
         background-position: right;
     }
 }
+.notification{
+   display: flex;
+    flex-direction: column;
+ 
+}
+.notin{
+ 
+    
+    width: max-content;
+    
+  
+       
+}
 
 .navbar {
-
+    
     display: flex;
     justify-content: space-between;
     padding: 0 24px;
@@ -107,6 +120,7 @@ span {
 .info {
     margin: 40px 20px;
     border-radius: 64px;
+ 
 }
 
 .info-text {
